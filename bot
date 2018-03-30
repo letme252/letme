@@ -1,0 +1,17 @@
+var Discord = require("discord.js");
+var bot = new Discord.Client();
+const ytdl = require('ytdl-core');
+
+bot.on('guildMemberAdd', m => {
+
+
+
+    var voiceChannel1 = bot.channels.find("name","name of channel for voice greeting");
+     voiceChannel1.join()
+     .then(connnection => {
+                const stream = ytdl("https://youtu.be/0ykb4T8AxmQ", { filter: 'audioonly' });
+        const dispatcher = connnection.playStream(stream);
+        dispatcher.on('end', () => voiceChannel1.leave());
+            }, 8000)
+            .catch(console.error);
+});
