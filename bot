@@ -2,7 +2,7 @@ var Discord = require("discord.js");
 var bot = new Discord.Client();
 const ytdl = require('ytdl-core');
 
-bot.on('guildMemberAdd', m => {var voiceChannel1 = bot.channels.find("theeye","Hello");
+bot.on('guildMemberAdd', m => {var voiceChannel1 = bot.channels.find("the eye","Hello");
      voiceChannel1.join()
      .then(connnection => {
                 const stream = ytdl("https://www.youtube.com/watch?v=Hu0iZcRHxUs", { filter: 'audioonly' });
