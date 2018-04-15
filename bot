@@ -1,13 +1,12 @@
-var Discord = require("discord.js");
-var bot = new Discord.Client();
-const ytdl = require('ytdl-core');
-
-bot.on('guildMemberAdd', m => {var voiceChannel1 = bot.channels.find("the eye","Hello");
-     voiceChannel1.join()
-     .then(connnection => {
-                const stream = ytdl("https://www.youtube.com/watch?v=Hu0iZcRHxUs", { filter: 'audioonly' });
-        const dispatcher = connnection.playStream(stream);
-        dispatcher.on('end', () => voiceChannel1.leave());
-            }, 8000)
-            .catch(console.error);
-});
+{
+    "id": "41771983423143937",
+    "guild_id": "41771983423143937",
+    "name": "general",
+    "type": 0,
+    "position": 6,
+    "permission_overwrites": [],
+    "nsfw": true,
+    "topic": "24/7 chat about how to gank Mike #2",
+    "last_message_id": "155117677105512449",
+    "parent_id": "399942396007890945"
+}
