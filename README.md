@@ -1,12 +1,14 @@
 {
-    "id": "41771983423143937",
-    "guild_id": "41771983423143937",
-    "name": "general",
-    "type": 0,
-    "position": 6,
-    "permission_overwrites": [],
-    "nsfw": true,
-    "topic": "24/7 chat about how to gank Mike #2",
-    "last_message_id": "155117677105512449",
-    "parent_id": "399942396007890945"
+    "name": "test webhook",
+    "channel_id": "199737254929760256",
+    "token": "3d89bb7572e0fb30d8128367b3b1b44fecd1726de135cbe28a41f8b2f777c372ba2939e72279b94526ff5d1bd4358d65cf11",
+    "avatar": null,
+    "guild_id": "199737254929760256",
+    "id": "223704706495545344",
+    "user": {
+        "username": "test",
+        "discriminator": "7479",
+        "id": "190320984123768832",
+        "avatar": "b004ec1740a63ca06ae2e14c5cee11f3"
+    }
 }
